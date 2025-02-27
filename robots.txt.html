@@ -1,0 +1,49 @@
+User-agent: *
+
+# Disallow __OPTIMIZED__ images because they are obsolete.
+Disallow: /assets/__OPTIMIZED__/*
+
+Allow: /
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.svg
+Allow: /*.css
+Allow: /*.js
+Allow: /*.webp
+Allow: /blog/?page=*
+Allow: /blog/?tags=*
+Allow: /blog?page=*
+Allow: /blog?tags=*
+Allow: /blog/posts/*/*/
+
+Disallow: /*?
+Disallow: /all-webinars*?
+Disallow: /demo-request
+Disallow: /promo-des24/*
+Disallow: /analytics-test
+Disallow: /email-subscription
+Disallow: /test-no-/*
+Disallow: /en/*
+Disallow: /data-transfer-iframe
+Disallow: /Mont
+Disallow: /blog/posts/
+Disallow: /docs/en/administration/step-by-step/roles-and-users-manage
+Disallow: /services/DoubleCloud-visualization/
+Disallow: /docs/en/public-api/transfer-api-quickstart
+Disallow: /legal/en/dpa_llc/
+Disallow: /services/managed-ClickHouse/
+Disallow: /docs/en/vpc/step-by-step/manage-connections
+Disallow: /docs/en/public-api/clickhouse-api-quickstart
+Disallow: /resources/blog/de-normalization-how-clickhouse-dictionaries-can-solve-typical-problems/
+Disallow: /docs/en/data-visualization/step-by-step/connections/create-postgresql-connection
+Disallow: /docs/en/data-visualization/step-by-step/connections/create-prometheus-connection
+Disallow: /docs/en/public-api/kafka-api-quickstart
+Disallow: /_doc
+Disallow: /build/
+Disallow: /feed.atom
+Disallow: /docs/en/data-visualization/step-by-step/connections/create-prometheus-connection
+Disallow: /docs/en/data-visualization/step-by-step/add-hierarchy
+Disallow: /assets/doublecloud/files/DCloud_Supplier_CoC_ENG.pdf
+Disallow: /assets/doublecloud/files/DCloud_Code_of_Ethics_ENG.pdf
+
+Sitemap: https://double.cloud/sitemap.xml
